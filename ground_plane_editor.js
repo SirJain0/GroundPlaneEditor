@@ -93,6 +93,7 @@
                                     </div>
                                         <br>
                                         <div style="display:flex;gap:8px">
+                                        <button @click="revert()">Reset Values</button>
                                         <span style="flex-grow:3"></span>
                                         <button @click="create()">Done</button>
                                         <button @click="close()">Cancel</button>
@@ -134,6 +135,12 @@
 
                                     this.close()
                                     Blockbench.showQuickMessage("Updated successfully", 3000)
+                                },
+                                
+                                revert() {
+                                    $("dialog#edit_ground_plane_dialog .color_picker input").val("#21252B");
+                                    $("dialog#edit_ground_plane_dialog .slider_input_combo #opacity_number").val(255);
+                                    $("dialog#edit_ground_plane_dialog .slider_input_combo #opacity_slider").val(255);
                                 },
 
                                 close: () => dialog.cancel()
