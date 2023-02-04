@@ -231,14 +231,14 @@
                     <p>Please report any bugs or suggestions you may have to make this plugin more enjoyable for everyone.</p>
                     <br>
                     <div class="socials">
-                    <a href="${links["twitter"]}" class="open-in-browser">
-                        <i class="fa-brands fa-twitter" style="color:#00acee"></i>
-                        <label>By ${author}</label>
-                    </a>
-                    <a href="${links["discordlink"]}" class="open-in-browser">
-                        <i class="fa-brands fa-discord" style="color:#5865F2"></i>
-                        <label>Discord Server</label>
-                    </a>
+                        <a href="${links["twitter"]}" class="open-in-browser">
+                            <i class="fa-brands fa-twitter" style="color:#00acee"></i>
+                            <label>By ${author}</label>
+                        </a>
+                        <a href="${links["discordlink"]}" class="open-in-browser">
+                            <i class="fa-brands fa-discord" style="color:#5865F2"></i>
+                            <label>Discord Server</label>
+                        </a>
                     </div>
                 </div>
             `]
