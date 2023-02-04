@@ -46,6 +46,7 @@
                         title: "Edit Ground Plane",
                         id: "edit_ground_plane_dialog",
                         lines: [`
+                            <li></li>
                             <style>
                                 dialog#edit_ground_plane_dialog .bar {
                                     display: flex;
@@ -189,6 +190,7 @@
             width: 780,
             buttons: [],
             lines: [`
+                <li></li>
                 <style>
                     dialog#about .dialog_title {
                         padding-left: 0;
