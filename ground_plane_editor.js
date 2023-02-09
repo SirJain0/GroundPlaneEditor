@@ -135,7 +135,7 @@
                                     Canvas.ground_plane.material.opacity = parseInt(opacity) / 255;
 
                                     this.close()
-                                    Blockbench.showQuickMessage("Updated successfully", 3000)
+                                    Blockbench.showQuickMessage("Updated successfully", 2000)
                                 },
                                 
                                 revert() {
@@ -147,7 +147,10 @@
                                 close: () => dialog.cancel()
                             }
                         },
-                        buttons: []
+                        buttons: [],
+                        onConfirm() {
+                            this.content_vue.create();
+                        }
                     }).show()
                 }
             })
