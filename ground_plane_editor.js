@@ -102,8 +102,8 @@
                                 <div>
                                     <div class="bar slider_input_combo">
                                         <p>Edit Opacity:</p>
-                                        <input id="opacity_slider" type="range" min="30" max="255" value="255" @input="changeSlider('opacity')"></input>
-                                        <input id="opacity_number" type="number" class="tool" min="30" max="255" value="255" @input="changeNumber('opacity', 1, 255, 255)"></input>
+                                        <input id="opacity_slider" type="range" min="60" max="255" value="255" @input="changeSlider('opacity')"></input>
+                                        <input id="opacity_number" type="number" class="tool" min="60" max="255" value="255" @input="changeNumber('opacity', 60, 255, 255)"></input>
                                     </div>
                                     <br>
                                     <div class="color_picker">
